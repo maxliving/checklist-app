@@ -126,7 +126,7 @@ a { color: var(--green); text-decoration: none; }
   border: 1.5px solid var(--rule-strong);
   display: flex; align-items: center; justify-content: center;
   margin-top: 1px;
-  background: #fff;
+  background: var(--card);
   transition: background .12s ease, border-color .12s ease;
 }
 .item .box svg { width: 16px; height: 16px; opacity: 0; transition: opacity .12s ease; }
