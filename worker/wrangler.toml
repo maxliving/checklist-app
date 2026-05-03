@@ -1,0 +1,20 @@
+name = "tap-check"
+main = "src/worker.js"
+compatibility_date = "2025-01-15"
+
+# Public base URL of the deployed PWA, used to build returned checklist URLs
+# from push_checklist (e.g. https://tap-check.pages.dev).
+[vars]
+PUBLIC_BASE_URL = ""
+
+# KV namespace for stored checklists.
+# Create with:  npx wrangler kv namespace create CHECKLISTS
+# Then paste the returned id below.
+[[kv_namespaces]]
+binding = "CHECKLISTS"
+id = "REPLACE_WITH_KV_ID"
+
+# Optional shared secret. Set with:
+#   npx wrangler secret put MCP_SECRET
+# When set, all REST and MCP endpoints require:
+#   Authorization: Bearer <secret>

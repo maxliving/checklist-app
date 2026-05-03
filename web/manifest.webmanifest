@@ -1,0 +1,14 @@
+{
+  "name": "Tap Check",
+  "short_name": "Tap Check",
+  "description": "Tappable checklists, pushed from Claude.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f1f1ef",
+  "theme_color": "#f1f1ef",
+  "icons": [
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
